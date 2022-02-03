@@ -13,23 +13,33 @@ Crea un programa que use un ciclo que tome los números de arreglo y devuelva la 
 	 */
 	
 	int []numeros = new int [] {1,6,45,53,80,102,145,326,450,892}; 
-	int par=0, impar=0;
+	int sumaTotal=0, sumaPares=0, sumaImpares=0;
 	for (int i=0; i < numeros.length;i++) {
 		System.out.println("Elementos de numero: " + numeros[i]);
 		
+		
 	}
+	System.out.println("*********************************************");
+
 	for(int i=0; i<10;i++) {
+		sumaTotal= sumaTotal + numeros [i];
 
 		if(numeros[i] % 2 ==0) {
-			par ++;
+			 sumaPares = sumaPares + numeros[i];
 			System.out.println("Numero Par = " + numeros[i]);
 		}
 		else {
-			impar ++;
+			sumaImpares= sumaImpares + numeros [i];
 			System.out.println("Numero Impar = " + numeros[i]);
 			
 		}
 		}
+	System.out.println("*********************************************");
+
+	System.out.println("La suma total de los numeros es: " + sumaTotal);
+	System.out.println("La suma de los numeros pares es: " + sumaPares);
+	System.out.println("La suma de los numeros impares es: " + sumaImpares);
+
 }
 }
 
