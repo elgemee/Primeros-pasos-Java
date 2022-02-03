@@ -3,7 +3,7 @@ package metodos;
 public class PruebaMetodos {
 	public static void main(String[] args) {
 		
-		Metodos.imprimirNombre("Pancho");
+		Metodos.imprimirNombre("Panchito");
 		/*
 		//crear un objeto que va a contener los metodos y atributos
 		Metodos metodoPrueba = new Metodos();
